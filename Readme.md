@@ -2,6 +2,7 @@
 
 In this project we have implemented a file sharing protocol similar to Dropbox with
 support for download from server and indexed searching.
+	
 	* The system has one server and one client. Server is listening for client and
 	after connection between them (Used TCP as default protocol) client can
 	request for information about files and download them.
@@ -13,6 +14,7 @@ support for download from server and indexed searching.
 First Run ‘ python server.py ‘ in one terminal to start server. Then run ‘ python
 client.py ‘ in separate terminal to make and connect client to server.
 Then run following commands in client side to get data from server:
+	
 	* IndexGet shortlist <starttimestamp> <endtimestamp>
 	Output: Return ‘name’ , ‘size’ , ‘timestamp’ and ‘type’ of the files between
 	the start and end time stamps to client.
